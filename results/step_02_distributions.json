@@ -1,0 +1,103 @@
+{
+  "normality": {
+    "popularity": {
+      "feature": "popularity",
+      "mean": 33.19880766659238,
+      "std": 20.58064029656124,
+      "skew": 0.0708618778712198,
+      "kurtosis_excess": -0.770669876986187,
+      "shapiro_W": 0.9733369634708288,
+      "shapiro_p": 1.447742901148368e-29,
+      "anderson_stat": 489.1526797825354,
+      "anderson_crit_5pct": 0.752
+    },
+    "valence": {
+      "feature": "valence",
+      "mean": 0.4694744376086472,
+      "std": 0.2628635396720378,
+      "skew": 0.12763516151814994,
+      "kurtosis_excess": -1.0474018002895709,
+      "shapiro_W": 0.9678834201042061,
+      "shapiro_p": 5.11930481506287e-32,
+      "anderson_stat": 673.9348136336484,
+      "anderson_crit_5pct": 0.752
+    },
+    "energy": {
+      "feature": "energy",
+      "mean": 0.6344584717695565,
+      "std": 0.256606378558644,
+      "skew": -0.5599831783842311,
+      "kurtosis_excess": -0.6081667595685136,
+      "shapiro_W": 0.9468501971539715,
+      "shapiro_p": 3.607617567840752e-39,
+      "anderson_stat": 1249.9408883995638,
+      "anderson_crit_5pct": 0.752
+    },
+    "danceability": {
+      "feature": "danceability",
+      "mean": 0.5621663550256296,
+      "std": 0.17669202472897,
+      "skew": -0.39828514872858023,
+      "kurtosis_excess": -0.19359835130306946,
+      "shapiro_W": 0.9868580427875598,
+      "shapiro_p": 3.49235284088276e-21,
+      "anderson_stat": 271.53993711300427,
+      "anderson_crit_5pct": 0.752
+    }
+  },
+  "fits": {
+    "popularity": {
+      "normal": {
+        "mu": 33.19880766659238,
+        "sigma": 20.5805256280877
+      }
+    },
+    "valence": {
+      "normal": {
+        "mu": 0.4694744376086472,
+        "sigma": 0.262862075083939
+      },
+      "beta": {
+        "alpha": 1.2153738636047742,
+        "beta": 1.377228319998835
+      }
+    },
+    "energy": {
+      "normal": {
+        "mu": 0.6344584717695565,
+        "sigma": 0.25660494883336304
+      },
+      "beta": {
+        "alpha": 1.523555211550978,
+        "beta": 0.918551717493356
+      }
+    },
+    "danceability": {
+      "normal": {
+        "mu": 0.5621663550256296,
+        "sigma": 0.17669104025985388
+      },
+      "beta": {
+        "alpha": 3.53135633134387,
+        "beta": 2.8148595401392362
+      }
+    }
+  },
+  "clt_demo": {
+    "n_5": {
+      "mean_of_means": 33.356199999999994,
+      "std_of_means": 9.294828587942845,
+      "theoretical_se": 9.203942144716471
+    },
+    "n_30": {
+      "mean_of_means": 33.21053333333334,
+      "std_of_means": 3.782681889733425,
+      "theoretical_se": 3.7574936461088004
+    },
+    "n_200": {
+      "mean_of_means": 33.276622499999995,
+      "std_of_means": 1.4620716318710623,
+      "theoretical_se": 1.455271031485957
+    }
+  }
+}

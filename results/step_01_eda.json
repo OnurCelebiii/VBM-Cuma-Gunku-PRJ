@@ -1,0 +1,29 @@
+{
+  "n_tracks": 89740,
+  "n_genres": 113,
+  "descriptive_csv": "results/descriptive_statistics.csv",
+  "top_genres_by_popularity": {
+    "k-pop": 59.42,
+    "pop-film": 59.1,
+    "metal": 56.42,
+    "chill": 53.74,
+    "latino": 51.79,
+    "sad": 51.11,
+    "grunge": 50.59,
+    "indian": 49.77,
+    "anime": 48.78,
+    "emo": 48.5
+  },
+  "bottom_genres_by_popularity": {
+    "idm": 15.52,
+    "kids": 14.77,
+    "grindcore": 14.52,
+    "classical": 13.36,
+    "chicago-house": 12.33,
+    "detroit-techno": 11.13,
+    "latin": 9.86,
+    "jazz": 9.79,
+    "romance": 3.55,
+    "iranian": 2.22
+  }
+}
