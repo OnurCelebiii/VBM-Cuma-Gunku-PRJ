@@ -1,0 +1,182 @@
+{
+  "ols_popularity": {
+    "r_squared": 0.030399780320278902,
+    "adj_r_squared": 0.0303025285429791,
+    "f_statistic": 312.58842937689894,
+    "f_p_value": 0.0,
+    "n_obs": 89740,
+    "coefficients": {
+      "const": {
+        "coef": 35.8848,
+        "std_err": 0.66788,
+        "t": 53.72963,
+        "p_value": 0.0,
+        "ci_low": 34.57577,
+        "ci_high": 37.19383
+      },
+      "danceability": {
+        "coef": 10.28318,
+        "std_err": 0.47253,
+        "t": 21.76198,
+        "p_value": 0.0,
+        "ci_low": 9.35702,
+        "ci_high": 11.20933
+      },
+      "energy": {
+        "coef": -2.28041,
+        "std_err": 0.54264,
+        "t": -4.20242,
+        "p_value": 3e-05,
+        "ci_low": -3.34399,
+        "ci_high": -1.21684
+      },
+      "loudness": {
+        "coef": 0.09592,
+        "std_err": 0.02341,
+        "t": 4.09724,
+        "p_value": 4e-05,
+        "ci_low": 0.05004,
+        "ci_high": 0.14181
+      },
+      "speechiness": {
+        "coef": -11.95423,
+        "std_err": 0.63741,
+        "t": -18.7544,
+        "p_value": 0.0,
+        "ci_low": -13.20354,
+        "ci_high": -10.70491
+      },
+      "acousticness": {
+        "coef": -1.51439,
+        "std_err": 0.31009,
+        "t": -4.88376,
+        "p_value": 0.0,
+        "ci_low": -2.12216,
+        "ci_high": -0.90663
+      },
+      "instrumentalness": {
+        "coef": -9.04043,
+        "std_err": 0.2526,
+        "t": -35.79013,
+        "p_value": 0.0,
+        "ci_low": -9.53552,
+        "ci_high": -8.54535
+      },
+      "liveness": {
+        "coef": 0.48133,
+        "std_err": 0.37342,
+        "t": 1.28898,
+        "p_value": 0.19741,
+        "ci_low": -0.25057,
+        "ci_high": 1.21322
+      },
+      "valence": {
+        "coef": -8.0566,
+        "std_err": 0.3228,
+        "t": -24.95877,
+        "p_value": 0.0,
+        "ci_low": -8.68928,
+        "ci_high": -7.42392
+      },
+      "tempo": {
+        "coef": 0.00478,
+        "std_err": 0.00235,
+        "t": 2.03454,
+        "p_value": 0.0419,
+        "ci_low": 0.00018,
+        "ci_high": 0.00938
+      }
+    },
+    "aic": 794730.1743779932,
+    "bic": 794824.2210967885
+  },
+  "classification": {
+    "Lojistik Regresyon": {
+      "auc": 0.6255556056073874,
+      "accuracy": 0.7636282594160909,
+      "precision_popular": 0.0,
+      "recall_popular": 0.0,
+      "f1_popular": 0.0,
+      "confusion_matrix": [
+        [
+          17132,
+          1
+        ],
+        [
+          5302,
+          0
+        ]
+      ]
+    },
+    "k-NN (k=25)": {
+      "auc": 0.6522635346520025,
+      "accuracy": 0.7603744149765991,
+      "precision_popular": 0.4565727699530516,
+      "recall_popular": 0.07336854017351943,
+      "f1_popular": 0.12642183945401364,
+      "confusion_matrix": [
+        [
+          16670,
+          463
+        ],
+        [
+          4913,
+          389
+        ]
+      ]
+    },
+    "Random Forest": {
+      "auc": 0.7010315957766499,
+      "accuracy": 0.7669712502785826,
+      "precision_popular": 0.6293706293706294,
+      "recall_popular": 0.033949453036589965,
+      "f1_popular": 0.06442376521116679,
+      "confusion_matrix": [
+        [
+          17027,
+          106
+        ],
+        [
+          5122,
+          180
+        ]
+      ]
+    },
+    "random_forest_feature_importance": {
+      "instrumentalness": 0.0934,
+      "speechiness": 0.1084,
+      "tempo": 0.1096,
+      "energy": 0.1103,
+      "liveness": 0.1106,
+      "danceability": 0.1108,
+      "acousticness": 0.1166,
+      "valence": 0.1186,
+      "loudness": 0.1217
+    }
+  },
+  "logistic_key_features": {
+    "pseudo_r2": 0.012453163519333676,
+    "log_likelihood": -48460.73279954505,
+    "params": {
+      "const": -0.4439,
+      "valence": -0.7541,
+      "energy": -0.9264,
+      "danceability": 1.1178,
+      "loudness": 0.0514
+    },
+    "p_values": {
+      "const": 0.0,
+      "valence": 0.0,
+      "energy": 0.0,
+      "danceability": 0.0,
+      "loudness": 0.0
+    },
+    "odds_ratios": {
+      "const": 0.6416,
+      "valence": 0.4704,
+      "energy": 0.396,
+      "danceability": 3.0581,
+      "loudness": 1.0527
+    }
+  }
+}

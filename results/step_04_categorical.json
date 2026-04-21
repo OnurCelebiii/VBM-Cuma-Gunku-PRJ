@@ -1,0 +1,105 @@
+{
+  "mood_vs_popularity": {
+    "contingency_table": {
+      "Düşük": {
+        "Üzgün": 15663,
+        "Nötr": 7723,
+        "Mutlu": 11495
+      },
+      "Orta": {
+        "Üzgün": 14345,
+        "Nötr": 7775,
+        "Mutlu": 12792
+      },
+      "Yüksek": {
+        "Üzgün": 8631,
+        "Nötr": 4648,
+        "Mutlu": 5386
+      },
+      "Hit": {
+        "Üzgün": 416,
+        "Nötr": 406,
+        "Mutlu": 460
+      }
+    },
+    "chi2": 448.6948077152921,
+    "p_value": 9.372256156992096e-94,
+    "dof": 6,
+    "cramers_v": 0.04999971070315751,
+    "hypothesis": "H0: Ruh hali (valans) ile popülerlik sınıfı bağımsızdır."
+  },
+  "mode_vs_popularity": {
+    "contingency_table": {
+      "Düşük": {
+        "Majör": 22253,
+        "Minör": 12628
+      },
+      "Orta": {
+        "Majör": 22643,
+        "Minör": 12269
+      },
+      "Yüksek": {
+        "Majör": 11503,
+        "Minör": 7162
+      },
+      "Hit": {
+        "Majör": 763,
+        "Minör": 519
+      }
+    },
+    "chi2": 64.6977118677836,
+    "p_value": 5.821279306384434e-14,
+    "dof": 3,
+    "cramers_v": 0.02685044131220923
+  },
+  "loudness_vs_popularity": {
+    "contingency_table": {
+      "Düşük": {
+        "Çok sessiz": 4415,
+        "Sessiz": 6606,
+        "Yüksek": 15739,
+        "Çok yüksek": 8121
+      },
+      "Orta": {
+        "Çok sessiz": 2531,
+        "Sessiz": 6068,
+        "Yüksek": 18370,
+        "Çok yüksek": 7943
+      },
+      "Yüksek": {
+        "Çok sessiz": 1545,
+        "Sessiz": 2790,
+        "Yüksek": 9598,
+        "Çok yüksek": 4732
+      },
+      "Hit": {
+        "Çok sessiz": 20,
+        "Sessiz": 105,
+        "Yüksek": 717,
+        "Çok yüksek": 440
+      }
+    },
+    "chi2": 1169.2014522061509,
+    "p_value": 5.396317039350028e-246,
+    "dof": 9,
+    "cramers_v": 0.06590084952358456
+  },
+  "anova_top10_genres": {
+    "genres": [
+      "k-pop",
+      "pop-film",
+      "metal",
+      "chill",
+      "latino",
+      "sad",
+      "grunge",
+      "indian",
+      "anime",
+      "emo"
+    ],
+    "F": 64.60494135336143,
+    "p_value": 7.91102943367168e-115,
+    "kruskal_H": 881.7045764405375,
+    "kruskal_p": 5.40902853185967e-184
+  }
+}
